@@ -1,15 +1,15 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "server.ts",
+  "main": "server.js",
   "scripts": {
     "test": "jest --detectOpenHandles",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "dev": "npx nodemon",
-    "start:prod": "node build/server.ts",
+    "start:prod": "node build/server.js",
     "build": "rimraf ./build && tsc",
-    "start": "npm run build && node build/server.ts"
+    "start": "npm run build && node build/server.js"
   },
   "keywords": [],
   "author": "",
