@@ -9,7 +9,7 @@
     "dev": "npx nodemon",
     "start:prod": "node build/server.js",
     "build": "rimraf ./build && tsc",
-    "start": "npm run build && node build/server.js"
+    "start": "npm run build && node build/src/server.js"
   },
   "keywords": [],
   "author": "",
